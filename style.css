@@ -146,7 +146,19 @@ body {
 }
 @media screen and (max-width: 550px) {
   .container {
-    top: 30%;
-    zoom: 2.5;
+    zoom: 1;
+  }
+  .container:hover {
+    height: 470px;
+    width: 330px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .container {
+    zoom: 1;
+  }
+  .container:hover {
+    height: 470px;
+    width: 320px;
   }
 }
